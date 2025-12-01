@@ -17,6 +17,7 @@
     - [03-1-SQL-Optimization.md](03-1-SQL-Optimization.md)
   - **03-2: SUBSTR→RIGHT (3배↑)**
     - [03-2-Function.md](03-2-Function.md)
-  - **03-3: 마이그레이션 전환**
+  - **03-3: 마이그레이션 전환 (전체 쿼리 50% 전환)**
     - [03-3-Migration.md](03-3-Migration.md)
+
 
