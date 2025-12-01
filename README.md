@@ -12,8 +12,9 @@
 ## 🚀 소스 파일
 - [01-REST-SOAP-Hybrid.md](01-REST-SOAP-Hybrid.md) **하이브리드 연동**
 - [02-MyBatis-Flow.md](02-MyBatis-Flow.md) **MVC 전체 흐름**
-- **03-SQL-Tuning:** **SQL 최적화 (423MB+630MB)**
+- **03-SQL-Tuning:** **SQL 최적화**
   - **03-1: INDEX 미사용 + RIGHT 최적화** [03-1-SQL-Optimization.md](03-1-SQL-Optimization.md)
   - **03-2: SUBSTR→RIGHT (3배↑)** [03-2-Function.md](03-2-Function.md)
   - **03-3: 마이그레이션 전환** [03-3-Migration.md](03-3-Migration.md)
+
 
