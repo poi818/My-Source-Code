@@ -13,6 +13,10 @@
 - [01-REST-SOAP-Hybrid.md](01-REST-SOAP-Hybrid.md) **하이브리드 연동**
 - [02-MyBatis-Flow.md](02-MyBatis-Flow.md) **MVC 전체 흐름**
 - 03-SQL-Tuning 폴더 **SQL 최적화**
-  - [03-1: INDEX 미사용 분석 + RIGHT 최적화](03-SQL-Tuning/03-1-SQL-Optimization.md)
-  - [03-2: SUBSTR→RIGHT (3배↑)](03-SQL-Tuning/03-2-substr-right.md)
-  - [03-3: 마이그레이션 전환](03-SQL-Tuning/03-3-migration.md)
+  **03-1: INDEX 미사용 분석 + RIGHT 최적화]**
+  - [03-SQL-Tuning/03-1-SQL-Optimization.md](03-SQL-Tuning/03-1-SQL-Optimization.md) 
+  **03-2: SUBSTR→RIGHT (3배↑)**
+  - [03-SQL-Tuning/03-2-substr-right.md](03-SQL-Tuning/03-2-substr-right.md)
+  **03-3: 마이그레이션 전환**
+  - [03-SQL-Tuning/03-3-migration.md](03-SQL-Tuning/03-3-migration.md)
+
