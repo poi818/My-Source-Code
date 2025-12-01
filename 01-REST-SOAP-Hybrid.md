@@ -42,7 +42,7 @@ public ModelAndView apiSend (apiSendVO vo, ModelMap map) throws Exception {
    return jsonForm.modelAndViewJson(code, message, response);
 }
 
-3. SOAP Client (Axis 라이브러리)
+### 3. SOAP Client (Axis 라이브러리)
 
 org.apache.axis.client.Service service = new org.apache.axis.client.Service();
 Call call = (Call) service.createCall();
@@ -57,4 +57,5 @@ Class cls = DataHandler.class;
 QName qname = new QName("", "DataHandler");
          
 call.registerTypeMapping(cls, qname, jafsf, jafdf, false);
+
 call.setOperationName(new QName("", setFileMethodName));
