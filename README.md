@@ -16,6 +16,7 @@
   - **03-1: INDEX 미사용 분석 + RIGHT 최적화**
     - [03-1-SQL-Optimization.md](03-1-SQL-Optimization.md)
   - **03-2: SUBSTR→RIGHT (3배↑)**
-    - [03-2-substr-right.md](03-2-substr-right.md)
+    - [03-2-Function.md](03-2-Function.md)
   - **03-3: 마이그레이션 전환**
-    - [03-3-migration.md](03-3-migration.md)
+    - [03-3-Migration.md](03-3-Migration.md)
+
