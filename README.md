@@ -5,8 +5,8 @@
   - Frontend: REST API / **Server: Axis SOAP**
 - **2. 분석/설계/구현**: **MVC 패턴 + MyBatis**
 - **3. SQL 튜닝**:
-  - 423MB 테이블: 실운영 **30초↑ → 30초 이내** (성능 안정화)
-  - 630MB 테이블: 실운영 **30초↑ → 30초 이내** (성능 안정화)
+  - 423MB 테이블: 실운영 **30초↑ → 30초 이내** (I/O 에러 0건) 
+  - 630MB 테이블: 실운영 **30초↑ → 30초 이내** (I/O 에러 0건)
   - Oracle → PostgreSQL 마이그레이션: **전체 쿼리 오류 0건**
 
 ## 🚀 소스 파일
@@ -16,5 +16,6 @@
   - **03-1: INDEX 미사용 + RIGHT 최적화** [03-1-SQL-Optimization.md](03-1-SQL-Optimization.md)
   - **03-2: SUBSTR→RIGHT (3배↑)** [03-2-Function.md](03-2-Function.md)
   - **03-3: 마이그레이션 전환** [03-3-Migration.md](03-3-Migration.md)
+
 
 
