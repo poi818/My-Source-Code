@@ -1,4 +1,4 @@
-### 4-2. Validation 로직 전환 (JavaScript → Server)
+### 4-1. Validation 로직 전환 (JavaScript → Server)
 
 #### BEFORE (JavaScript)
 - 화면 스크립트에서만 검증이 이뤄져, 우회 가능성이 존재
@@ -67,3 +67,4 @@ comError.accept(String.format("%s의 계획일자를 선택해 주세요.", menu
 - 클라이언트 단 검증 로직을 서버 공통 모듈로 전환하여 **우회 가능성 차단 및 일관된 검증 보장**
 - 날짜 처리 로직을 표준 API(`LocalDate`)로 통일해 **가독성과 유지보수성 향상**
 - 기존 JavaScript 팝업 메세지 대신, 서버 단에서 에러 정보를 구조화하여 **다양한 화면/서비스에서 재사용 가능**
+
