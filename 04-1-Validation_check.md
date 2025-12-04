@@ -3,7 +3,7 @@
 #### BEFORE (JavaScript)
 - 화면 스크립트에서만 검증이 이뤄져, 우회 가능성이 존재
 
-// JavaScript
+```JavaScript
 if($('#planDe1').val() === '') {
 	$('#InputDoneTxt').html("계획일자를 선택해 주세요.");
 	lay_pop_open('#js__InputDone');
@@ -23,15 +23,14 @@ if($('#planDe1').val().split('-') > $('#currentDate').val()) {
 	lay_pop_open('#js__InputDone');
 	return;
 }
-//
-
+```
 
 #### AFTER (Server)
 - 검증 로직을 서버 단으로 전환하여, 클라이언트 우회 방지 및 공통 검증 로직으로 재사용 가능
 - 날짜 파싱과 연도 비교를 `LocalDate` 기반으로 수행해 안정성 향상.
 - 공통 에러 생성 로직은 `Consumer<String>`으로 분리
 
-// Java
+```Java
 String planDe = ValidationVO.getPlanDe();
 final String menuNm = StringUtils.isBlank(ValidationVO.getMenuNm()) ? "메뉴명" : ValidationVO.getMenuNm();
 
@@ -62,7 +61,7 @@ comError.accept(String.format("%s의 계획일자를 선택해 주세요.", menu
 		));
 	}
 }
-//
+```
 
 #### Result
 - 클라이언트 단 검증 로직을 서버 공통 모듈로 전환하여 **우회 가능성 차단 및 일관된 검증 보장**
