@@ -22,8 +22,9 @@
   - **03-2: SUBSTR→RIGHT (3배↑)** [03-2-Function.md](03-2-Function.md)
   - **03-3: 마이그레이션 전환** [03-3-Migration.md](03-3-Migration.md)
 - **04-Code_REFORM:** **코드 품질 개선 관리**
-  - **04-1: 검증 로직 전환(JavaScript -> Server** [04-1-Validation_Check.md](04-1-Validation_check.md)
+  - **04-1: 검증 로직 전환(JavaScript -> Server)** [04-1-Validation_Check.md](04-1-Validation_check.md)
   - **04-2: 중복코드 공통 모듈화** [04-2-Code_Module.md](04-2-Code_Module.md) 
+
 
 
 
