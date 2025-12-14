@@ -1,4 +1,4 @@
-## 🔧 3-2 INDEX 미사용 분석 + RIGHT 최적화
+## 🔧 3-2 RIGHT 최적화
 
 **Before (630MB 전체 스캔)**
 ```xml
@@ -22,3 +22,4 @@ FROM MAIN_CODE_ISSU_RGTR
 ```
 
 **성과**: **630MB 테이블 실운영 30초↑ → 30초 이내 (I/O 에러 0건)**
+
