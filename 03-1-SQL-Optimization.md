@@ -25,4 +25,5 @@ WHERE sgg_cd = #{SggCd} -- 탐색 90%↓
 and drw_img_no like #{SggCd} || 'IMG'|| TO_CHAR(now(), 'YYYYMMDD') || '%'
 ```
 
-**성과**: **423MB 테이블 30초↑ → 30초 이내 (I/O 에러 0건)**
+**성과**: **423MB 테이블 30초↑ → 15초 이내 단축 (I/O 에러 0건)**
+
