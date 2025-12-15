@@ -7,8 +7,8 @@
   - **MVC 패턴 + MyBatis (Back-End)**
   - **JSP + JavaScript (Front-End)**
 - **3. SQL 튜닝**:
-  - 423MB 테이블: 실운영 **30초↑ → 30초 이내** (I/O 에러 0건) 
-  - 630MB 테이블: 실운영 **30초↑ → 30초 이내** (I/O 에러 0건)
+  - 423MB 테이블: 실운영 **30초↑ → 15초 이내 단축** (I/O 에러 0건) 
+  - 630MB 테이블: 실운영 **30초↑ → 15초 이내 단축** (I/O 에러 0건)
   - Oracle → PostgreSQL 마이그레이션: **전체 쿼리 오류 0건**
 - **4. 코드 품질·구조 개선**:
   - Validation 로직 변경 **JavaScript → Server** (검증 안정성 강화)
@@ -24,6 +24,7 @@
 - **04-Code_REFORM:** **코드 품질 개선 관리**
   - **04-1: 검증 로직 전환(JavaScript -> Server)** [04-1-Validation_Check.md](04-1-Validation_check.md)
   - **04-2: 중복코드 공통 모듈화** [04-2-Code_Module.md](04-2-Code_Module.md) 
+
 
 
 
